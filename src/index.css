@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 20% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 20% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 20% 20%;
+
+    /* Warm orange primary - welcoming and energetic */
+    --primary: 20 95% 55%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Soft peach secondary - friendly and approachable */
+    --secondary: 25 100% 90%;
+    --secondary-foreground: 20 90% 25%;
+
+    /* Light warm muted - subtle backgrounds */
+    --muted: 30 40% 96%;
+    --muted-foreground: 25 10% 45%;
+
+    /* Sunny yellow accent - optimistic and cheerful */
+    --accent: 45 100% 62%;
+    --accent-foreground: 30 30% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 25 30% 90%;
+    --input: 25 30% 92%;
+    --ring: 20 95% 55%;
+
+    --radius: 0.75rem;
+    
+    /* Custom tokens for the community platform */
+    --warm-gradient: linear-gradient(135deg, hsl(20, 95%, 55%) 0%, hsl(35, 100%, 65%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(210, 100%, 60%) 0%, hsl(25, 100%, 65%) 50%, hsl(35, 100%, 70%) 100%);
+    --card-hover: 20 95% 97%;
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 30% 10%;
+    --foreground: 0 0% 98%;
+
+    --card: 222.2 25% 14%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 222.2 25% 14%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 20 95% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 25 40% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 222.2 25% 18%;
+    --muted-foreground: 25 10% 65%;
+
+    --accent: 45 100% 62%;
+    --accent-foreground: 30 30% 10%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 222.2 25% 20%;
+    --input: 222.2 25% 18%;
+    --ring: 20 95% 55%;
+    
+    --warm-gradient: linear-gradient(135deg, hsl(20, 95%, 45%) 0%, hsl(35, 100%, 55%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(210, 100%, 50%) 0%, hsl(25, 100%, 55%) 50%, hsl(35, 100%, 60%) 100%);
+    --card-hover: 222.2 25% 16%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
