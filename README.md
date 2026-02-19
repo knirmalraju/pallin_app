@@ -4,6 +4,8 @@ Pallin - Connect Locally, Belong Globally
 
 Pallin is a local circle-finder designed to build authentic connections and combat the isolation often felt after moving to a new place. Unlike large-scale event platforms, we focus on small, curated circles based on shared interests and energy.
 
+Figma prototype Link : https://www.figma.com/proto/CgllfjDwmn69RSvAZSev7z/Pallin?node-id=1-1350&p=f&t=tqtjfMQNKTFLQTkx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A1350&show-proto-sidebar=1
+
 🚀 Our Mission
 
 Modern life presents a paradox where high mobility often leads to high isolation. Pallin aims to streamline the journey from signing up to showing up, helping users convert initial matches into genuine, long-term friendships.
